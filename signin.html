@@ -24,7 +24,7 @@
 
 <script>
     document.getElementById("loginForm").addEventListener("submit", function(event){
-
+      event.preventDefault();
       let mail = document.getElementById('loginEmail').value;
       let pass = document.getElementById('loginPassword').value;
 
@@ -45,4 +45,5 @@
 </script>
   
 </body>
+
 </html>
