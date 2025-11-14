@@ -26,7 +26,7 @@
 
  
 document.getElementById("signupForm").addEventListener("submit", function(event){
- 
+ event.preventDefault();
   let email = document.getElementById("signupEmail").value;
   let password = document.getElementById("signupPassword").value;
 
@@ -43,3 +43,4 @@ document.getElementById("signupForm").addEventListener("submit", function(event)
   </script>
 </body>
 </html>
+
