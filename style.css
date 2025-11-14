@@ -1,0 +1,352 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    width: 100px;
+    height: 50px;
+    border: 1px solid transparent;  
+    
+}
+.logo{
+    background-image:url(pictures/amazon-logo1.webp);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-logo:hover{
+    border: 2px solid white;
+}
+
+.add-1{
+    font-size: 0.8rem;
+    color: #CCCC;
+    margin-left: 15px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.add-2{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.location:hover{
+    border: 2px solid white;
+    padding: 8px;
+}
+.search-item{
+    display: flex;
+    border-radius: 3px;
+    width: 1340px;
+    height: 40px;
+
+}
+
+.sel-item{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+    background-color: rgb(196, 190, 190);
+    width: 45px;
+    align-items: center;
+}
+
+.search-bar{
+    width: 1300px;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 231, 19);
+    color: black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.sign-in{
+    font-size: 12px;
+}
+
+.acc-list{
+    font-size: 14px;
+   font-weight: 700;
+}
+
+.return{
+    font-size: 12px;
+}
+
+.order{
+    font-size: 14px;
+   font-weight: 700;
+}
+
+.ret-ord:hover{
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.sign-acc-list:hover{
+    border: 2px solid white;
+    padding: 8px;
+}
+
+.search-item:{
+    border: 2px solid orange;
+}
+
+.cart-icon i{
+    font-size: 30px;
+}
+
+.cart-icon:hover{
+     border: 2px solid white;
+    padding: 8px;
+}
+
+.nav-2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    height: 39px;
+}
+
+.nav-opt p{
+    display: inline;
+    padding: 14px;
+}
+
+.nav-opt{
+    width: 80%;
+    font-size: 14px; 
+}
+
+.nav-deals{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hero-section{
+    background-image:url(pictures/hero-img.jpg) ;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    align-items: flex-end;
+    
+}
+
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+.box{
+      flex: 1 1 250px;      
+  max-width: 300px;       
+  background-color: white;
+  padding: 20px 0 15px;
+  box-sizing: border-box;
+}
+
+.box-section{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;              
+  background-color: rgb(204, 112, 207);
+  padding: 20px;
+}
+
+.box-img{
+    background-image: url(pictures/pc-img.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box1-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.row{
+    display: table-row;
+}
+
+.cell{
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+}
+
+.table{
+    display: table;
+    width: 100%;
+}
+
+.cell img{
+      width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.box-img3{
+    background-image:url(pictures/phone-img.jpeg);
+    margin-top: 12px;
+    margin-bottom: 12px;
+     background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+  margin: 12px 0;
+}
+
+.box-img4{
+     background-image:url(pictures/health-care.jpeg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box-img5{
+     background-image:url(pictures/Perks-Of-Having-A-Custom-Gaming-PC.jpeg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box-img6{
+     background-image:url(pictures/h525.png) ;
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box-img7{
+     background-image: url(pictures/cooler-master-mastercase-h500-argb-airflow-atx-mid-tower-cas-821-508985-060621093107.jpg);
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.box-img8{
+     background-image: url(pictures/VGCcWL5iYNoceZNq5PBwfk.jpg) ;
+    background-size: cover;
+    height: 400px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.back-foot{
+    margin-top: 18px;
+    height: 49px;
+    background-color: #37475A;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-foot ul a{
+    display: block;
+    margin-top: 15px;
+    
+}
+.second-foot{
+    padding-top: 20px;
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.third-foot{
+    background-color: #232F3E;
+    border-top: 1px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo1{
+      background-image:url(pictures/amazon-logo1.webp);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.fourth-foot{
+  
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+}
+
+.fifth-foot{
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    flex: 1 1 100%;
+  }
+  .hero-msg {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
